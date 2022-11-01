@@ -1,9 +1,12 @@
 # kickstarter-analysis
 Performing analysis on Kickstarter data to uncover trends 
-An Analysis of Kickstarter Campaigns 
+
+
 First of all i clean the data, using filter and sort. Creating a new column for deadline and launched dates, converting from timestamp to regular date. So I could understand how the dates influence the outcomes of the plays, creating a new sheet with pivot table for the  Date Launched Statistics
 Here I could found the months that most have successfull plays, since the client wanted to know the data from theater I also filterd by theater play, so you can check that May was the month that most have successfull plays and October has the most failed plays.
-![Monthlylaunchedtheater(desktop/bootcamp/module1/Module1.1-1.4/Monthlylaunchedtheater.png)
+
+![Monthlylaunchedtheater(desktop/bootcamp/module1/Module1.1-1.4/Monthlylaunchedtheater.png).
+
 After that I created a conditional formatting for the outcomes column and porcentage funded.
 Also divided the Category and Subcategory columns to two separated columns, parent category and subcategory columns
 After, I created a Pivot table, using country on filter, outcomes on columns, parent category and outcomes for values. 
